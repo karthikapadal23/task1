@@ -6,15 +6,15 @@ import { getFirestore, collection, addDoc, getDocs } from "https://www.gstatic.c
 import { getStorage, ref, uploadBytesResumable, getDownloadURL } from "https://www.gstatic.com/firebasejs/10.13.1/firebase-storage.js"; 
  
 // Firebase config 
-const firebaseConfig = { 
-    apiKey: "AIzaSyBqol7KbGT5p7ppA9z1zu0d7YiIxkaEm1Q", 
-    authDomain: "sample-309eb.firebaseapp.com", 
-    projectId: "sample-309eb", 
-    storageBucket: "sample-309eb.appspot.com", 
-    messagingSenderId: "971052026993", 
-    appId: "1:971052026993:web:a79d9b0f6f06b08a105fd0", 
-    measurementId: "G-63M6TRFSL3" 
-}; 
+ const firebaseConfig = {
+    apiKey: "AIzaSyDxC0r0QDQGNMJb_oNu557FjAWI_dlDywQ",
+    authDomain: "class1-8dcc5.firebaseapp.com",
+    projectId: "class1-8dcc5",
+    storageBucket: "class1-8dcc5.appspot.com",
+    messagingSenderId: "635357703514",
+    appId: "1:635357703514:web:2dea3be56380c2c3dcd763",
+    measurementId: "G-MBK9R28XZR"
+  };
  
 // Initialize Firebase 
 const app = initializeApp(firebaseConfig); 
